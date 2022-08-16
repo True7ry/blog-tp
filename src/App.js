@@ -9,7 +9,7 @@ function App() {
       </style> 
       <header className="App-header">
         <ul className='header-dad'>
-          <p className='titulo-header'>Malvinas</p>
+          <p className='titulo-header'>Las Islas Malvinas</p>
           <img className='arg-icon' src={require('./img/arg-icon.png')} alt='argentina icono'/>
         </ul>
       </header>
