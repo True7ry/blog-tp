@@ -44,14 +44,12 @@ body{
 
 
 .inicio{
-  overflow: hidden;
-  position: realtive;
-  
+  display: flex; 
 }
 
 .inicio img{
   width: 100%;
- margin-top: 10px;
+ border: 3px solid black;
 }
 
 footer{
@@ -76,6 +74,9 @@ h2{
 .img-h, .img-ej{
   width: 90%;
 }
+.Pading{
+  padding: 2rem;
+}
 
 .creditos a{
   text-decoration: none;
@@ -87,10 +88,16 @@ h2{
 
 
 
-@media screen and (max-width:600px) and (min-width:400px) {
+@media screen and (max-width:720px) and (min-width:200px) {
 
   .pag{
     display: flex;
     flex-direction: column;
+  }
+  .Pading{
+    padding: 0;
+  }
+  .img-h, .img-ej{
+    width: 100%;
   }
 }

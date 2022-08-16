@@ -16,8 +16,8 @@ function App() {
       <div className='inicio'>
         <img  src={require('./img/bandera.png')} alt='imagen ushuaia'/>
       </div>
-
-      <div className='pag'>
+      <div className='Pading'>
+        <div className='pag'>
         <Paginas
         titulo='Historia de las islas Malvinas'
         description='Las islas Malvinas son un archipiélago localizado en el mar argentino, océano Atlántico Sur, a una distancia mínima de la Patagonia de 341 km. Según la ONU, constituyen un territorio en disputa entre la República Argentina y el Reino Unido, quien en 1833 las tomó por la fuerza y las administró como un territorio británico de ultramar. '
@@ -39,7 +39,9 @@ function App() {
         description= 'El 3 de enero se produjo la aparición de los ingleses e intervinieron en las Islas Malvinas como consecuencia al día siguiente, el comandante de la goleta de guerra denominado Sarandí dejó el Puerto Soledad debido a la presencia ante las fuerzas británicas y a partir de ese momento, empieza la colonización inglesa es decir la toma de posesión sobre las islas. por otra parte, el 6 de enero hubo una ocupación del territorio por parte de los ingleses y se aprovecharon de los bienes debido al abandono de los argentinos. en cambio el 16 de enero el gobierno argentino necesitaba explicaciones sobre el tema de lo sucedido en las islas malvinas del encargado británico, es decir que les exigió el primer pedido de explicación formal y por esta razón, el 17 y 22 de enero se produjo la primera protesta formal ante el funcionario británico presentado por el ministerio de relaciones exteriores argentino. '
        /> 
        <img className='img-ej' src={require('./img/ejercito-m.jpg')} alt='Ejercito'/>
+      </div>      
       </div>
+      
       <footer>
         <h2>Creditos:</h2>
         <ul className='creditos'>

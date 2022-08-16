@@ -1,4 +1,3 @@
-import react from 'react';
 import '../stylesheet/Pag.css';
 
 function Paginas(props) {
