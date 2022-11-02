@@ -38,7 +38,6 @@ function App() {
         <Gon_maca />
         <Teo />
         <Pedro />
-        <div className="pag n2"></div>
       </div>
 
       <footer></footer>

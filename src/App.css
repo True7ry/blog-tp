@@ -1,18 +1,19 @@
 .App {
   font-family: Lato;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+}
+
+body{
   background-color: #f0f0f0;
+  background-image: url("./img/back.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;  
 }
 
 
-.pag{
-  display: flex;
-  margin: 2rem 0 ;
-  align-items: center;
-}
-
-.header-dad{
+.header-dad {
   display: flex;
   text-align: center;
   align-items: center;
@@ -20,72 +21,65 @@
   background-color: #0c3c60;
 }
 
-.titulo-header{
+.titulo-header {
   text-align: center;
   font-size: 2rem;
-  color:transparent;
+  color: transparent;
   font-weight: bold;
   padding: 1.2rem;
-  background-image: url('./img/bandera2.jpg');
-  background-size:cover;
+  background-image: url("./img/bandera2.jpg");
+  background-size: cover;
   background-position-y: 80%;
   background-clip: text;
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.arg-icon{
+.arg-icon {
   width: 100px;
   padding-right: 1.2rem;
 }
-.inicio, .Pading{
+.inicio,
+.Pading {
   max-width: 1000px;
   margin: auto;
   background-color: #ffffff;
 }
 
-.inicio{
-  display: flex; 
-
+.inicio {
+  display: flex;
 }
 
-.inicio img{
+.inicio img {
   width: 100%;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-evenly;
   background-color: #0c3c60;
-  margin:0;
+  margin: 0;
 }
-.creditos{
+.creditos {
   display: flex;
   flex-direction: column;
-  padding:1rem;
+  padding: 1rem;
 }
-h2{
+h2 {
   padding: 1rem;
 }
 
-.n2{
-  flex-direction: column;
-}
-
-.img-h, .img-ej{
+.img-h,
+.img-ej {
   width: 90%;
 }
-.Pading{
-  padding: 2rem;
-}
 
-
-@media screen and (max-width:720px) and (min-width:200px) {
-
-  .Pading{
+@media screen and (max-width: 720px) and (min-width: 200px) {
+  .Pading {
     padding: 0;
   }
-  .img-h, .img-ej{
+  .img-h,
+  .img-ej {
     width: 100%;
   }
 }
