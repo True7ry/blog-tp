@@ -9,7 +9,7 @@ function Paginas(props) {
       <p className='btext'>{props.salto2}</p>
       <p className='btext'>{props.salto3}</p>
       <p className='btext'>{props.salto4}</p>
-  </div>
+</div> 
   ) 
 };
 

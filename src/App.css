@@ -79,22 +79,9 @@ h2{
   padding: 2rem;
 }
 
-.creditos a{
-  text-decoration: none;
-  color:#14b199;
-}
-.creditos a:hover{
-  color:aqua;
-}
-
-
 
 @media screen and (max-width:720px) and (min-width:200px) {
 
-  .pag{
-    display: flex;
-    flex-direction: column;
-  }
   .Pading{
     padding: 0;
   }
