@@ -58,6 +58,12 @@ function Julieta(props) {
           intereses de la población de las Islas.
         </li>
       </ol>
+       <h3>Bibliografia: </h3>
+      <ol>
+        <a href="https://www.clarin.com/viva/columnistas_viva-felipe_pigna-haciendo_historia_0_r1St1QKvXx.html">Diario Clarín</a>
+        <a href=": https://csbah.cancilleria.gob.ar/userfiles/Folleto_CuestionMalvinas_impresion.pdf">Folleto Cuestión Malvinas</a>
+        <a href="https://www.todo-argentina.net/historia-argentina/civiles_y_miltares/illia/malvinas.php?idpagina=1618">Resolución 2060 sobre Malvinas</a>
+      </ol>
     </article>
   );
 }

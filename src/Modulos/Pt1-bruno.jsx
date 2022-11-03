@@ -1,7 +1,6 @@
 import React from "react";
 import "../stylesheet/texto.css";
 
-
 function Pt1(props) {
   return (
     <article>
@@ -120,6 +119,18 @@ function Pt1(props) {
         situaciones de salud y los traía hacia el continente, así tratándolos en
         los hospitales argentinos.
       </p>
+      <h3>Bibliografia: </h3>
+      <ol>
+        <a href="https://www.centronaval.org.ar/boletin/BCN831/831-GRONDA.pdf">
+          https://www.centronaval.org.ar/boletin/BCN831/831-GRONDA.pdf
+        </a>
+        <a href="https://www.cancilleria.gob.ar/es/actualidad/noticias/malvinas-faurie-presidio-un-homenaje-ernesto-manuel-campos">
+          https://www.cancilleria.gob.ar/es/actualidad/noticias/malvinas-faurie-presidio-un-homenaje-ernesto-manuel-campos
+        </a>
+        <a href="https://www.malvinense.com.ar/smalvi/11/1939.htm">
+          https://www.malvinense.com.ar/smalvi/11/1939.htm
+        </a>
+      </ol>
     </article>
   );
 }

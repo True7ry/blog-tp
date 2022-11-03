@@ -3,6 +3,7 @@ import "../stylesheet/texto.css";
 function Wenten(props) {
   return (
     <article>
+      <h2>Antecedentes históricos y política exterior en relación con las Islas Malvinas (ocupación británica y reclamos por la vía diplomática)</h2>
       <h2>Política Exterior. </h2>
       <p className="nombre">Wenten Jeremias</p>
       <p>
@@ -211,6 +212,12 @@ function Wenten(props) {
         disputada por el Reino Unido conocida como la "Cuestión de las Islas
         Malvinas".
       </p>
+       <h3>Bibliografia: </h3>
+      <ol>
+        <a href="https:///es/politica-exterior/cuestion-malvinas/antecedentes/antecedentes-historicos">https:///es/politica-exterior/cuestion-malvinas/antecedentes/antecedentes-historicos</a>
+        <a href="https:///es/politica-exterior/cuestion-malvinas/la-cuestion-de-las-islas-malvinas ">https:///es/politica-exterior/cuestion-malvinas/la-cuestion-de-las-islas-malvinas </a>
+        <a href=""></a>
+      </ol>
     </article>
   );
 }

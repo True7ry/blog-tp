@@ -1,7 +1,10 @@
-h2{
+h2, h3{
   font-family: lato, sans-serif;
 }
-
+h3{
+  padding: 1rem;
+  font-style: italic;
+}
 p{
   margin: 10px;
   padding: 7px;
@@ -12,7 +15,15 @@ p{
   font-weight: bold;
   font-style: oblique;
 }
-
+a{
+  display: block;
+  margin: 13px;
+  text-decoration: none;
+  color:rgb(29, 202, 255);
+}
+a:hover{
+  color: rgba(172, 172, 38, 0.877);
+}
 li{
   margin: 15px;
   list-style: none;

@@ -1,7 +1,6 @@
 import React from "react";
 import "../stylesheet/texto.css";
 
-
 function Santi(props) {
   return (
     <article>
@@ -207,6 +206,17 @@ function Santi(props) {
         que algunos de estos isleños que fueron ayudados por su padre, que hoy
         ya grandes, recordaran algo de lo que aquí se cuenta.
       </p>
+      <h3>Bibliografia: </h3>
+      <ol>
+        <a href="https://es.wikipedia.org/wiki/Ernesto_Manuel_Campos">
+          Ernesto Manuel Campos - Wikipedia, la enciclopedia libre
+        </a>
+        <a href="https://www.cancilleria.gob.ar/es/actualidad/noticias/malvinas-faurie-presidio-un-homenaje-ernesto-manuel-campos">
+          Malvinas: Faurie presidió un homenaje a Ernesto Manuel Campos | Ministerio de Relaciones Exteriores, Comercio Internacional y Culto (cancilleria.gob.ar)
+        </a>
+        <a href="https://www.centronaval.org.ar/boletin/BCN831/831-GRONDA.pdf">831-GRONDA.pdf (centronaval.org.ar)</a>
+        <a href="https://www.malvinense.com.ar/smalvi/11/1939.htm">La historia de Ernesto Campos en las Islas Malvinas (malvinense.com.ar)</a>
+      </ol>
     </article>
   );
 }
